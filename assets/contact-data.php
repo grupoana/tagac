@@ -3,9 +3,9 @@
  * Datos de contacto en Español
 **************************************************************/
 
-$dataPhone['es'] = '8180207005';
-$dataPhoneStr['es'] = '81 8020 7005';
-$dataWhatsapp['es'] = '528180207005';
+$dataPhone['es'] = '8116578916';
+$dataPhoneStr['es'] = '81 1657 8916';
+$dataWhatsapp['es'] = '528116578916';
 $dataEmail['es'] = 'ventas@tagac.com.mx';
 
 $streetAddress['es'] = 'José Silvestre Aramberri 149';
