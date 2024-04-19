@@ -5,7 +5,7 @@
 
 $dataPhone['es'] = '8116578916';
 $dataPhoneStr['es'] = '81 1657 8916';
-$dataWhatsapp['es'] = '528116578916';
+$dataWhatsapp['es'] = 'https://wa.me/message/GKP63BFYVKUCG1';
 $dataEmail['es'] = 'ventas@tagac.com.mx';
 
 $streetAddress['es'] = 'José Silvestre Aramberri 149';
