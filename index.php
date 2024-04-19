@@ -48,8 +48,8 @@ include "$basePath/assets/trans/index.php";
   </script>
 
   <!-- Favicons -->
-  <link href="https://www.tagac.com.mx/assets/img/favicon.png" rel="icon">
-  <link href="https://www.tagac.com.mx/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://www.tagac.com.mx/assets/img/brand/logo.png" rel="icon">
+  <link href="https://www.tagac.com.mx/assets/img/brand/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
