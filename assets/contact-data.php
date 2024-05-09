@@ -3,8 +3,8 @@
  * Datos de contacto en Español
 **************************************************************/
 
-$dataPhone['es'] = '8116578916';
-$dataPhoneStr['es'] = '81 1657 8916';
+$dataPhone['es'] = '8141605520';
+$dataPhoneStr['es'] = '81 4160 5520';
 $dataWhatsapp['es'] = 'https://wa.me/message/RBL74RJ6Z7V3H1';
 $dataEmail['es'] = 'ventas@tagac.com.mx';
 
