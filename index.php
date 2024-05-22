@@ -66,7 +66,7 @@ include "$basePath/assets/trans/index.php";
   <link href="https://www.tagac.com.mx/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="https://www.tagac.com.mx/assets/css/main.css" rel="stylesheet">
+  <link href="https://www.tagac.com.mx/assets/css/home.css" rel="stylesheet">
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -536,7 +536,7 @@ include "$basePath/assets/trans/index.php";
   <script src="https://www.tagac.com.mx/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="https://www.tagac.com.mx/assets/js/main.js"></script>
+  <script src="https://www.tagac.com.mx/assets/js/home.js"></script>
   <script src="https://www.tagac.com.mx/assets/js/cookies.js"></script>
   <!--script src="assets/js/script.js"></script-->
 
