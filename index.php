@@ -151,21 +151,20 @@ include "$basePath/assets/trans/index.php";
       <div class="row justify-content-between gy-5">
         <div
           class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2 data-aos="fade-up">
+          <h2>
             <?php echo $heroTitle[$lang] ?>
           </h2>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <p data-aos-delay="100">
             <?php echo $heroSub[$lang] ?>
           </p>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="d-flex">
             <a href="/<?php echo $salesRef ?>#contact" class="btn-book-a-table">
               <?php echo $heroCTA[$lang] ?>
             </a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="https://www.tagac.com.mx/assets/img/HOJA-PARA-ENVOLVER.png" class="img-fluid" alt=""
-            data-aos="zoom-out" data-aos-delay="300">
+          <img src="https://www.tagac.com.mx/assets/img/HOJA-PARA-ENVOLVER.png" class="img-fluid" alt="Papel grado alimenticio">
         </div>
       </div>
     </div>
