@@ -28,7 +28,7 @@ $heroCTA['es'] = 'Contáctanos';
 $edifTitle['es'] = 'Ellos creen <span>en nosotros</span>';
 $edifText['es'] = '<p class="fst-italic">¡Orgullosos proveedores de tortillerías!</p>
 <p class="fst-italic">
-Con nuestra amplia experiencia en la industria y nuestro compromiso con los más altos estándares de calidad, ofrecemos soluciones de papel personalizado para locales y restaurantes, adaptadas a las necesidades específicas de cada negocio. Nuestro papel garantiza la integridad de los productos alimenticios, proporcionando una presentación impecable y respetando los más altos estándares de higiene. 
+Con una amplia experiencia en la industria y un compromiso con los más altos estándares de calidad, Tagac ofrece soluciones de papel personalizado para locales y restaurantes, adaptadas a las necesidades específicas de cada negocio. Nuestro papel garantiza la integridad de los productos alimenticios, proporcionando una presentación impecable y respetando los más altos estándares de higiene. 
 </p>
 <p class="fst-italic">
 Al elegirnos como proveedores, puedes confiar en nuestra capacidad para ofrecer productos confiables, entregas puntuales y atención al cliente excepcional. Estamos comprometidos a brindarle a nuestros clientes la misma calidad y excelencia que nos ha convertido en socios de confianza de las tortillerías de México.
@@ -41,7 +41,7 @@ $edifCTA['es'] = 'Contáctanos';
 
 // Sección Nosotros
 $aboutTitle['es'] = 'Nosotros';
-$aboutSub['es'] = '¿Por qué <span>elegirnos?</span>';
+$aboutSub['es'] = '¿Por qué <span>elegir</span> a Tagac?';
 $aboutText['es'] = '<p class="fst-italic">
   Nos distinguimos por brindar una atención personalizada y un servicio de calidad excepcional. Reconocemos que cada cliente es único y valoramos sus necesidades individuales. Contamos con un profundo conocimiento en la industria de la masa y la tortilla, lo cual nos permite entender a la perfección tus desafíos y ofrecerte soluciones a medida.
 </p>
