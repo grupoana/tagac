@@ -15,7 +15,7 @@ include "$basePath/assets/trans/index.php";
   <!-- Idioma y codificación -->
   <meta charset="UTF-8">
   <meta http-equiv="content-language" content="<?php echo $lang ?>">
-  <link rel="canonical" href="https://www.tagac.com.mx/<?php echo ($lang == 'en' ? 'en/' : '') ?>">
+  <link rel="canonical" href="https://www.tagac.com.mx/">
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -139,20 +139,6 @@ include "$basePath/assets/trans/index.php";
         <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contact">
           <?php echo $menuContact[$lang] ?>
         </a>
-        <div class="dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <?php echo $prefCountry ?>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a id="ver-us" class="dropdown-item" href="/en/<?php echo $salesRef ?>">US</a>
-            </li>
-            <li>
-              <a id="ver-mx" class="dropdown-item" href="/<?php echo $salesRef ?>">MX</a>
-            </li>
-          </ul>
-        </div>
       </div>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
