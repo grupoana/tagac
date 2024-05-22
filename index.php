@@ -523,11 +523,7 @@ include "$basePath/assets/trans/index.php";
 
     </div>
 
-  </footer><!-- End Footer -->
-  <!-- End Footer -->
-
-  <a href="/#" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  </footer>
 
   <!-- Vendor JS Files -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
