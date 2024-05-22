@@ -217,10 +217,10 @@ include "$basePath/assets/trans/index.php";
             style="background-image: url(https://www.tagac.com.mx/<?php echo $aboutImg[$lang] ?>) ; background-position: center; background-repeat: no-repeat; background-size: cover;"
             data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
-              <h4>
+              <p class="cta">
                 <?php echo $aboutCTA[$lang] ?>
-              </h4>
-              <p>
+              </p>
+              <p class="number">
                 <?php echo $aboutPhone[$lang] ?>
               </p>
             </div>
@@ -460,9 +460,9 @@ include "$basePath/assets/trans/index.php";
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div>
-            <h4>
+            <h2>
               <?php echo $footAddress[$lang] ?>
-            </h4>
+            </h2>
             <p>
               <?php echo $dataAddressFoot[$lang] ?><br>
             </p>
@@ -472,9 +472,9 @@ include "$basePath/assets/trans/index.php";
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>
+            <h2>
               <?php echo $footContact[$lang] ?>
-            </h4>
+            </h2>
             <p>
               <strong>
                 <?php echo $footPhone[$lang] ?>
@@ -489,9 +489,9 @@ include "$basePath/assets/trans/index.php";
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>
+            <h2>
               <?php echo $footHours[$lang] ?>
-            </h4>
+            </h2>
             <p>
               <?php echo $dataHours[$lang] ?>
             </p>
