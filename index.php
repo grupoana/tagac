@@ -47,103 +47,18 @@ include "$basePath/assets/trans/index.php";
   }
   </script>
 
-  <!-- Favicons -->
-  <link href="https://www.tagac.com.mx/assets/img/brand/logo.png" rel="icon">
-  <link href="https://www.tagac.com.mx/assets/img/brand/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="https://www.tagac.com.mx/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
+  <!-- Estilo de la página -->
   <link href="https://www.tagac.com.mx/assets/css/home.css" rel="stylesheet">
 
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WK8GC9DR');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Meta Pixel -->
-  <script>
-    !function(f,b,e,v,n,t,s) {
-      if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);
-      t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
-    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '7140944829316380');
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=7140944829316380&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- Meta Pixel End -->
+  <!-- Etiquetas comunes -->
+  <?php include "$basePath/assets/common/head.php" ?>
 
 </head>
 
 <body>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK8GC9DR" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="/<?php echo $salesRef ?>" class="logo d-flex align-items-center me-auto me-lg-0">
-        <img src="https://www.tagac.com.mx/assets/img/brand/logo-full.svg" class="img-fluid" alt="tagac">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="/<?php echo $salesRef ?>#hero">
-              <?php echo $menuHome[$lang] ?>
-            </a></li>
-          <li><a href="/<?php echo $salesRef ?>#about">
-              <?php echo $menuAbout[$lang] ?>
-            </a></li>
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <?php echo $menuProducts[$lang] ?>
-            </a>
-            <ul class="dropdown-menu">
-              <?php foreach ($submenuProducts[$lang] as $category): ?>
-                <li><a href="/<?php echo ($salesRef . $category['href'] ) ?>" class="dropdown-item">
-                  <?php echo $category['title']?>
-                </a></li>
-              <?php endforeach ?>
-            </ul>
-          </li>
-          <li><a href="/<?php echo $salesRef ?>#coverage">
-              <?php echo $menuShipping[$lang] ?>
-            </a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <div class="d-flex align-items-center gap-3">
-        <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contact">
-          <?php echo $menuContact[$lang] ?>
-        </a>
-      </div>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    </div>
-  </header><!-- End Header -->
+  <!-- Barra de navegación -->
+  <?php include "$basePath/assets/common/navbar.php" ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center section-bg">
