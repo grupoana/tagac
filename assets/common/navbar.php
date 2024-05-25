@@ -1,5 +1,5 @@
 <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK8GC9DR" height="0" width="0"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?php echo $tagManagerID ?>" height="0" width="0"
     style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ======= Header ======= -->

@@ -6,6 +6,7 @@ $salesRef = $salesRep == null ? '': "?ref=$salesRep";
 
 include "$basePath/assets/contact-data.php";
 include "$basePath/assets/trans/index.php";
+include "$basePath/assets/.api.php";
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
