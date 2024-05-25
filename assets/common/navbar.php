@@ -15,9 +15,9 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $menuProducts[$lang] ?></a>
             <ul class="dropdown-menu">
-              <?php foreach ($submenuProducts[$lang] as $category): ?>
+<?php foreach ($submenuProducts[$lang] as $category): ?>
                 <li><a href="/<?php echo ($salesRef . $category['href'] ) ?>" class="dropdown-item"><?php echo $category['title']?></a></li>
-              <?php endforeach ?>
+<?php endforeach ?>
             </ul>
           </li>
           <li><a href="/<?php echo $salesRef ?>#coverage"><?php echo $menuShipping[$lang] ?></a></li>
