@@ -1,4 +1,5 @@
-<!-- Favicons -->
+<!-- Estilo visual -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="https://www.tagac.com.mx/assets/img/brand/logo.png" rel="icon">
   <link href="https://www.tagac.com.mx/assets/img/brand/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -23,7 +24,6 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-WK8GC9DR');</script>
-  <!-- End Google Tag Manager -->
 
   <!-- Meta Pixel -->
   <script>
@@ -38,4 +38,3 @@
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=7140944829316380&ev=PageView&noscript=1"/>
   </noscript>
-  <!-- Meta Pixel End -->

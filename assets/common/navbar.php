@@ -37,7 +37,7 @@
       </nav><!-- .navbar -->
 
       <div class="d-flex align-items-center gap-3">
-        <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contact">
+        <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contacto">
           <?php echo $menuContact[$lang] ?>
         </a>
       </div>

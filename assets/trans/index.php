@@ -5,7 +5,8 @@
 
 // Definiciones de SEO
 $seoTitle['es'] = 'TAGAC - Papel grado alimenticio';
-$seoDesc['es'] = 'Distribución de papel grado alimenticio a toda la república mexiana. Solicita tu cotiación hoy mismo.';
+$metaTitle['es'] = 'TAGAC - Soluciones en empaques alimenticios';
+$metaDesc['es'] = 'Distribución de papel grado alimenticio a toda la república mexiana. Solicita tu cotiación hoy mismo.';
 
 // Barra de menú
 $menuHome['es'] = 'Inicio';
@@ -15,9 +16,9 @@ $menuShipping['es'] = 'Cobertura';
 $menuContact['es'] = 'Contacto';
 
 $submenuProducts['es'][1]['title'] = 'Papel grado alimenticio';
-$submenuProducts['es'][1]['href'] = '#products';
+$submenuProducts['es'][1]['href'] = '#productos';
 $submenuProducts['es'][2]['title'] = 'Empaque';
-$submenuProducts['es'][2]['href'] = '#packing';
+$submenuProducts['es'][2]['href'] = '#empaques';
 
 // Sección Héroe
 $heroTitle['es'] = 'Papel grado <br>alimenticio';
