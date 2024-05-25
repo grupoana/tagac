@@ -57,7 +57,7 @@ include "$basePath/assets/trans/index.php";
   <?php include "$basePath/assets/common/navbar.php" ?>
 
   <!--  Sección Héroe  -->
-  <section id="hero" class="hero d-flex align-items-center section-bg">
+  <section id="inicio" class="hero d-flex align-items-center section-bg">
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div
@@ -142,7 +142,7 @@ include "$basePath/assets/trans/index.php";
   </section>
 
   <!-- Sección de Productos -->
-  <section id="products" class="events">
+  <section id="productos" class="events">
     <div class="container-fluid" data-aos="fade-up">
 
       <div class="section-header">
@@ -166,7 +166,7 @@ include "$basePath/assets/trans/index.php";
   </section>
 
   <!-- Sección de Empaques -->
-  <section id="packing">
+  <section id="empaques">
     <div class="container-fluid flex-column d-flex jusitfy-content-center align-items-center" data-aos="fade-up">
 
       <div class="section-header">
@@ -204,7 +204,7 @@ include "$basePath/assets/trans/index.php";
   </section>
 
   <!-- Sección de Cobertura de Envíos -->
-  <section id="coverage" class="book-a-table">
+  <section id="cobertura" class="book-a-table">
     <div class="container" data-aos="fade-up">
 
       <div class="section-header">
@@ -219,7 +219,7 @@ include "$basePath/assets/trans/index.php";
   </section>
 
   <!--  Sección de Contacto  -->
-  <section id="contact" class="contact">
+  <section id="contacto" class="contact">
     <div class="container" data-aos="fade-up">
      <div class="section-header">
         <h2><?php echo $contTitle[$lang] ?></h2>
