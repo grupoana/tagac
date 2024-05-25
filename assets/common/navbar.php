@@ -1,8 +1,6 @@
-
 <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK8GC9DR" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
@@ -34,7 +32,7 @@
               <?php echo $menuShipping[$lang] ?>
             </a></li>
         </ul>
-      </nav><!-- .navbar -->
+      </nav>
 
       <div class="d-flex align-items-center gap-3">
         <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contacto">
@@ -44,4 +42,4 @@
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
     </div>
-  </header><!-- End Header -->
+  </header>

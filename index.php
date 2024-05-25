@@ -141,7 +141,6 @@ include "$basePath/assets/trans/index.php";
     </div>
   </section>
 
-
   <!-- Sección de Productos -->
   <section id="products" class="events">
     <div class="container-fluid" data-aos="fade-up">
@@ -290,7 +289,6 @@ include "$basePath/assets/trans/index.php";
       </form>End Contact Form -->
    </div>
   </section>
-
 
   <!--  Pie de Página  -->
   <?php include "$basePath/assets/common/footer.php" ?>
