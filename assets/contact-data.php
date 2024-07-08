@@ -5,7 +5,8 @@
 
 $dataPhone['es'] = '8141605520';
 $dataPhoneStr['es'] = '81 4160 5520';
-$dataWhatsapp['es'] = 'https://wa.me/message/RBL74RJ6Z7V3H1';
+$dataWhatsapp['es'] = 'https://wa.me/message/SSE353KYUEFDG1
+';
 $dataEmail['es'] = 'ventas@tagac.com.mx';
 
 $streetAddress['es'] = 'Código Agrario 5119';
