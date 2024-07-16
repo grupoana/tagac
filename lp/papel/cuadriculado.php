@@ -175,8 +175,8 @@ include "$basePath/src/.api.php";
     </div>
     <div class="col-md-6 more">
       <p><?php echo $ctaMore ?></p>
-      <a class="cta-button" href="tel:<?php echo $dataPhone[$lang] ?>">Llámanos al <?php echo $dataPhoneStr[$lang] ?></a>
-      <a class="cta-button" href="mailto:<?php echo $dataEmail[$lang] ?>">Envíanos un correo a<br><?php echo $dataEmail[$lang] ?></a>
+      <a id="<?php echo $ctaPhoneId ?>" class="cta-button" href="tel:<?php echo $dataPhone[$lang] ?>">Llámanos al <?php echo $dataPhoneStr[$lang] ?></a>
+      <a id="<?php echo $ctaEmailId ?>" class="cta-button" href="mailto:<?php echo $dataEmail[$lang] ?>">Envíanos un correo a<br><?php echo $dataEmail[$lang] ?></a>
     </div>
   </section>
 

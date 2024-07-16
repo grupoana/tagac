@@ -60,3 +60,5 @@ $ctaEmail = 'Correo electrónico';
 $ctaPhone = 'Teléfono';
 $ctaMessage = 'Qué tipo de papel buscas, qué cantidad, con qué frecuencia lo necesitas...';
 $ctaBtn = 'Enviar mensaje';
+$ctaPhoneId = 'phonePapelCuadriculado';
+$ctaEmailId = 'emailPapelCuadriculado';

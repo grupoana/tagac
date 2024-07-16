@@ -1,5 +1,4 @@
 <?php
-
 require_once "../.api.php";
 
 if(isset($_POST['submit'])) {
@@ -76,6 +75,7 @@ function sendThanksEmail ($name, $mailto) {
 }
 
 function syncToHubspot($name, $email, $phone, $message, $form) {
+    global $hubspotKey;
 
     // Formateo del mensaje
     $msgPlain = str_replace("\r\n", "\n", $message);
