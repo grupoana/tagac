@@ -6,7 +6,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
       <a href="/<?php echo $salesRef ?>" class="logo d-flex align-items-center me-auto me-lg-0">
-        <img src="https://www.tagac.com.mx/assets/img/brand/logo-full.svg" class="img-fluid" alt="tagac">
+        <img src="https://www.tagac.com.mx/src/img/brand/logo-full.svg" class="img-fluid" alt="tagac">
       </a>
       <nav id="navbar" class="navbar">
         <ul>

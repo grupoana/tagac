@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+@import "../common.css";
+
+:root {
+    --color-black: #202020;
+}
+
+section, div {
+    margin: auto !important;
+}
+
+.header h2 {
+    text-align: center;
+}
+
+.cta-div {
+    align-items: center;
+}
+
+.cta-button {
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+}
+
+.item {
+    padding: 80px 10vw;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odd {
+    padding-right: 5vw;
+}
+
+.even {
+    padding-left: 5vw;
+}
+
+@media (max-width: 991px) {
+    .item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .item {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+/*--------------------------------------------------------------
+# Images
+--------------------------------------------------------------*/
+
+.picture {
+    padding: 0;
+}
+
+.img-lg {
+    display: block;
+}
+
+.img-md,
+.img-sm {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .img-lg,
+    .img-sm {
+        display: none;
+    }
+    .img-md {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-lg,
+    .img-md {
+        display: none;
+    }
+    .img-sm {
+        display: block;
+    }
+}
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+.shake {
+    animation: shake 3s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+}
+
+@keyframes shake {
+    0%, 13%, 60%, 100% {
+      transform: translateX(0);
+    }
+    2%, 6%, 10% {
+      transform: translateX(-15px);
+    }
+    4%, 8%, 12% {
+      transform: translateX(15px);
+    }
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+.hero {
+    height: 100svh;
+    padding-bottom: 60px;
+    background-color: var(--color-black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .float-parent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .float {
+    margin: auto;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.hero h1,
+.hero p {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em !important;
+}
+
+.hero p {
+    font-size: 1.5em !important;
+}
+
+.hero .arrow {
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.hero .arrow img {
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Description
+--------------------------------------------------------------*/
+
+.description .header {
+    margin: auto;
+    padding: 0 2vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.description .header p {
+    margin-bottom: 0;
+}
+
+.description img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .description {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .description .first-div {
+        padding-bottom: 40px;
+    }
+    .description .header {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+
+.about {
+    padding-top: 160px;
+    padding-bottom: 0;
+}
+
+.about .header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about .header h2 {
+    margin: 20px auto;
+}
+
+.about .description {
+    padding-left: 40px;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .about .description {
+        padding-left: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Call to Action
+--------------------------------------------------------------*/
+
+.separator-contact {
+    width: 100%;
+    height: 10vw;
+    background-image: url("https://www.tagac.com.mx/src/img/lp/cuadriculado/separator-contact.svg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cta {
+    padding: 100px 12vw;
+}
+
+.cta,
+.cta div {
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.about .header,
+.cta .header {
+    margin-bottom: 40px !important;
+}
+
+.cta .header p {
+    text-align: center;
+}
+
+.cta form {
+    padding-right: 30px;
+}
+
+.cta .more {
+    margin-top: 0 !important;
+    padding-left:30px;
+}
+
+.cta .more a {
+    color: var(--color-primary);
+    background: #fff;
+    margin: 40px auto;
+}
+
+.cta .more a:hover {
+    color: #fff;
+    background: var(--color-primary);
+}
+
+@media (max-width: 1198px) {
+    .cta {
+        padding-left: 9vw;
+        padding-right: 9vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .cta {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .cta {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .cta .header p {
+        text-align: left;
+    }
+    .cta form {
+        padding-bottom: 40px;
+        padding-right: 0;
+    }
+    .cta .more {
+        padding-left: 0;
+    }
+}

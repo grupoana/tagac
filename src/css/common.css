@@ -10,6 +10,10 @@
   --color-default: #212529;
   --color-primary: #0e55a2;
   --color-secondary: #b4b4b4;
+  --color-selection: #003a79;
+  --color-border: #999999;
+
+  --color-font-placeholder: #9b9b9b;
 
   /* Smooth scroll behavior */
   scroll-behavior: smooth;
@@ -90,6 +94,36 @@ section {
 
 .section-header p span {
   color: var(--color-primary);
+}
+
+/* Formulario */
+
+input,
+textarea {
+  width: 100%;
+  min-height: 40px;
+  margin: 5px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-width: 0px !important;
+  border-color: var(--color-border) !important;
+  border-radius: 20px !important;
+}
+
+textarea {
+  min-height: 120px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-font-placeholder) !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 2px solid var(--color-selection) !important;
+  transition: all .03s;
 }
 
 /*--------------------------------------------------------------

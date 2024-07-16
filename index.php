@@ -4,9 +4,9 @@ $lang = 'es';
 $salesRep = $_GET['ref'];
 $salesRef = $salesRep == null ? '': "?ref=$salesRep";
 
-include "$basePath/assets/contact-data.php";
-include "$basePath/assets/trans/index.php";
-include "$basePath/assets/.api.php";
+include "$basePath/src/common/contact-data.php";
+include "$basePath/src/trans/index.php";
+include "$basePath/src/.api.php";
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -29,7 +29,7 @@ include "$basePath/assets/.api.php";
     "description": "<?php echo $seoDesc[$lang] ?>",
     "url": "https://www.tagac.com.mx/",
     "image": "",
-    "logo": "https://www.tagac.com.mx/assets/img/tagac-logo.png",
+    "logo": "https://www.tagac.com.mx/src/img/tagac-logo.png",
     "email": ""<?php echo $dataEmail[$lang] ?>",
     "telephone": ""<?php echo $dataPhone[$lang] ?>",
     "openingHours" : "Mo-Fr 08:00-18:00, Sa 08:00-14:00",
@@ -45,17 +45,17 @@ include "$basePath/assets/.api.php";
   </script>
 
   <!-- Estilo de la página -->
-  <link rel="stylesheet" href="https://www.tagac.com.mx/assets/css/home.css">
+  <link rel="stylesheet" href="https://www.tagac.com.mx/src/css/home.css">
 
   <!-- Etiquetas comunes -->
-  <?php include "$basePath/assets/common/head.php" ?>
+  <?php include "$basePath/src/common/head.php" ?>
 
 </head>
 
 <body>
 
   <!-- Barra de navegación -->
-  <?php include "$basePath/assets/common/navbar.php" ?>
+  <?php include "$basePath/src/common/navbar.php" ?>
 
   <!--  Sección Héroe  -->
   <section id="inicio" class="hero d-flex align-items-center section-bg">
@@ -72,7 +72,7 @@ include "$basePath/assets/.api.php";
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="https://www.tagac.com.mx/assets/img/HOJA-PARA-ENVOLVER.png" class="img-fluid" alt="Papel grado alimenticio">
+          <img src="https://www.tagac.com.mx/src/img/HOJA-PARA-ENVOLVER.png" class="img-fluid" alt="Papel grado alimenticio">
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ include "$basePath/assets/.api.php";
       <div id="carrusel" class="carousel slide">
         <div class="carousel-inner">
           <?php
-            $directorio = "assets/img/empaque/";
+            $directorio = "src/img/empaque/";
             $imagenes = glob($directorio . "*.{jpg,png,webp,jpeg}", GLOB_BRACE);
             foreach ($imagenes as $index => $imagen) {
                 $activeClass = $index === 0 ? 'active' : '';
@@ -292,14 +292,14 @@ include "$basePath/assets/.api.php";
   </section>
 
   <!--  Pie de Página  -->
-  <?php include "$basePath/assets/common/footer.php" ?>
+  <?php include "$basePath/src/common/footer.php" ?>
 
   <!-- Scripts comunes -->
-  <?php include "$basePath/assets/common/scripts.php" ?>
+  <?php include "$basePath/src/common/scripts.php" ?>
 
   <!-- Scripts de la página -->
-  <script src="https://www.tagac.com.mx/assets/js/home.js"></script>
-  <script src="https://www.tagac.com.mx/assets/js/cookies.js"></script>
+  <script src="https://www.tagac.com.mx/src/js/home.js"></script>
+  <script src="https://www.tagac.com.mx/src/js/cookies.js"></script>
 
 </body>
 

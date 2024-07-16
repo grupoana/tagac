@@ -37,7 +37,7 @@ Al elegirnos como proveedores, puedes confiar en nuestra capacidad para ofrecer 
 <p class="fst-italic">
 Confía en nosotros para proporcionarte el papel grado alimenticio de primera calidad que tu negocio merece. ¡Permítenos ayudarte a destacar y ofrecer una experiencia inigualable a tus clientes!
 </p>';
-$edifImg['es'] = 'assets/img/papel-envolver.jpeg';
+$edifImg['es'] = 'src/img/papel-envolver.jpeg';
 $edifCTA['es'] = 'Contáctanos';
 
 // Sección Nosotros
@@ -57,7 +57,7 @@ $aboutText['es'] = '<p class="fst-italic">
 <p>
   ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a llevar tu negocio al siguiente nivel!
 </p>';
-$aboutImg['es'] = 'assets/img/Papel\ alimenticio.png';
+$aboutImg['es'] = 'src/img/Papel\ alimenticio.png';
 $aboutCTA['es'] = '¡Ordena aquí!';
 $aboutPhone['es'] = $dataPhoneStr['es'];
 
@@ -72,19 +72,19 @@ $prodSub['es'] = 'Nuestos <span>más importantes</span> productos';
 
 $products['es'][1]['title'] = 'Papel blanco';
 $products['es'][1]['sub'] = 'Papel para envolver tortilla, resistente a la humedad y duradero.';
-$products['es'][1]['img'] = 'assets/img/papelga.webp';
+$products['es'][1]['img'] = 'src/img/papelga.webp';
 
 $products['es'][2]['title'] = 'Papel personalizado';
 $products['es'][2]['sub'] = 'Complementa tu imagen envolviendo los alimentos con papel diseñado para tu marca.';
-$products['es'][2]['img'] = 'assets/img/PGA.jpg';
+$products['es'][2]['img'] = 'src/img/PGA.jpg';
 
 $products['es'][3]['title'] = 'Papel Kraft';
 $products['es'][3]['sub'] = 'Este tipo de papel de estraza o madera de color marrón, muy resistente y que presenta una superficie gruesa y rugosa.';
-$products['es'][3]['img'] = 'assets/img/papel-kraft.webp';
+$products['es'][3]['img'] = 'src/img/papel-kraft.webp';
 
 $products['es'][4]['title'] = 'Papel Revolución';
 $products['es'][4]['sub'] = 'Se puede usar para realizar manteletas en restaurantes, volantes, revistas, folletos, etc.';
-$products['es'][4]['img'] = 'assets/img/PAPEL-REVOLUCION.jpeg';
+$products['es'][4]['img'] = 'src/img/PAPEL-REVOLUCION.jpeg';
 
 //Sección Empaque
 $packTitle['es'] = 'Empaque';
@@ -93,7 +93,7 @@ $packSub['es']= 'Te compartimos <span>nuestro nuevo</span> producto';
 // Sección Envíos
 $shipTitle['es'] = 'Cobertura';
 $shipSub['es'] = 'Distribuimos a toda la república mexicana';
-$shipImg['es'] = 'assets/img/mapa-republica2.png';
+$shipImg['es'] = 'src/img/mapa-republica2.png';
 $shipImgAlt['es'] = 'Cobertura de envíos a toda la república mexicana';
 $shipPoints['es'] = '<ul class="col-lg-4 distribution">
 <li><i class="bi bi-check2-all"></i> Distribución nacional. </li>
