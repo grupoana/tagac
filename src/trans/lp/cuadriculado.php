@@ -1,7 +1,7 @@
 <?php
 // SEO
-$seoTitle = 'TAGAC - Papel grado alimenticio';
-$seoDesc = 'Distribución de papel grado alimenticio a toda la república mexiana. Solicita tu cotiación hoy mismo.';
+$seoTitle = 'TAGAC - Papel grado alimenticio cuadriculado';
+$seoDesc = 'Distribución de papel grado alimenticio a toda la república mexiana. Solicita tu cotización hoy mismo.';
 
 // CTA
 $cta = 'Cotizar ahora';
@@ -51,14 +51,19 @@ $aboutDescription = 'Con una amplia experiencia en la industria y un compromiso 
 // Call to Action
 $ctaId = 'contacto';
 $ctaFormId = 'Cuadriculado';
-$ctaFormName = 'Landing - Papel cuadriculado';
 $ctaTitle = 'Déjanos tu información';
 $ctaDescription = 'Obtén tu cotización o déjanos tus dudas. Te responderemos a la bravedad posible.';
 $ctaMore = 'Si lo prefieres, puedes ponerte en contacto por los siguientes medios para una atención más rápida:';
+
+// Form
+$ctaFormName = 'Landing - Papel cuadriculado';
 $ctaName = 'Nombre';
 $ctaEmail = 'Correo electrónico';
 $ctaPhone = 'Teléfono';
 $ctaMessage = 'Qué tipo de papel buscas, qué cantidad, con qué frecuencia lo necesitas...';
 $ctaBtn = 'Enviar mensaje';
-$ctaPhoneId = 'phonePapelCuadriculado';
-$ctaEmailId = 'emailPapelCuadriculado';
+
+// Lead Tracking
+$ctaLeadId = 'papel-cuadriculado';
+$ctaPhoneId = "phone-$ctaLeadId";
+$ctaEmailId = "email-$ctaLeadId";

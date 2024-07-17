@@ -12,8 +12,6 @@
   <link href="https://www.tagac.com.mx/src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://www.tagac.com.mx/src/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="https://www.tagac.com.mx/src/vendor/aos/aos.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/src/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="https://www.tagac.com.mx/src/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {

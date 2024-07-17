@@ -44,11 +44,13 @@ include "$basePath/src/.api.php";
   }
   </script>
 
-  <!-- Estilo de la página -->
-  <link rel="stylesheet" href="https://www.tagac.com.mx/src/css/home.css">
-
   <!-- Etiquetas comunes -->
   <?php include "$basePath/src/common/head.php" ?>
+  <link rel="stylesheet" href="https://www.tagac.com.mx/src/vendor/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="https://www.tagac.com.mx/src/vendor/swiper/swiper-bundle.min.css">
+
+  <!-- Estilo de la página -->
+  <link rel="stylesheet" href="https://www.tagac.com.mx/src/css/home.css">
 
 </head>
 
@@ -296,6 +298,9 @@ include "$basePath/src/.api.php";
 
   <!-- Scripts comunes -->
   <?php include "$basePath/src/common/scripts.php" ?>
+  <script src="https://www.tagac.com.mx/src/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://www.tagac.com.mx/src/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="https://www.tagac.com.mx/src/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Scripts de la página -->
   <script src="https://www.tagac.com.mx/src/js/home.js"></script>

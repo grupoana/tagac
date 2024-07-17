@@ -12,7 +12,6 @@ include "$basePath/src/.api.php";
 <head>
   <!-- Idioma y codificación -->
   <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="content-language" content="<?php echo $lang ?>">
 
   <!-- Definiciones de la página y SEO -->
@@ -20,7 +19,7 @@ include "$basePath/src/.api.php";
   <meta name="description" content="<?php echo $seoTitle ?>">
 
   <!-- Etiquetas comunes -->
-  <?php include "$basePath/src/common/lp/head.php" ?>
+  <?php include "$basePath/src/common/head.php" ?>
 
   <!-- Hoja de estilo -->
   <link rel="stylesheet" href="https://www.tagac.com.mx/src/css/lp/cuadriculado.css">
@@ -29,7 +28,7 @@ include "$basePath/src/.api.php";
 
 <body>
   <!--------------- Rastreador del Tag Manager ---------------->
-<?php include "$basePath/src/common/lp/tag-manager.php" ?>
+<?php include "$basePath/src/common/tag-manager.php" ?>
 
   <!--------------------- Hero section ------------------------>
   <section id="<?php echo $heroId ?>" class="row hero">
@@ -181,7 +180,10 @@ include "$basePath/src/.api.php";
   </section>
 
   <!-- Scripts -->
-<?php include "$basePath/src/common/lp/scripts.php" ?>
+  <?php include "$basePath/src/common/scripts.php" ?>
+
+  <!-- AOS initialization -->
+  <script>AOS.init({duration: 300, easing: 'ease-in-out', mirror: false});</script>
 </body>
 
 </html>
