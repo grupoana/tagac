@@ -6,6 +6,7 @@ $menuHome = 'Inicio';
 $menuAbout = 'Nosotros';
 $menuProducts = 'Productos';
 $menuShipping = 'Cobertura';
+$menuBlog = 'Blog';
 $menuContact = 'Contacto';
 
 $submenuProducts[1]['title'] = 'Papel grado alimenticio';

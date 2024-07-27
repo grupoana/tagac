@@ -104,7 +104,7 @@ include "$basePath/src/.api.php";
   </section>
 
   <!-- Sección de Llamada a la Acción -->
-  <section id="about" class="about">
+  <section id="nosotros" class="about">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
         <h2><?php echo $aboutTitle ?></h2>
