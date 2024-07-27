@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 :root {
+  --menu-height: 90px;
+
   /* Fuentes */
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
@@ -36,6 +38,25 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
+}
+
+.pc { display: block; }
+.tab { display: none; }
+.phone { display: none; }
+.pc-phone { display: block; }
+
+@media (max-width: 991px) {
+  .pc { display: none; }
+  .tab { display: block; }  
+  .phone { display: none; }
+  .pc-phone { display: none; }
+}
+
+@media (max-width: 767px) {
+  .pc { display: none; }
+  .tab { display: none; }  
+  .phone { display: block; }
+  .pc-phone { display: block; }
 }
 
 /* Botón CTA */
@@ -138,31 +159,31 @@ button:focus {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.header {
+.navigation {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
+  height: var(--menu-height);
   border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 575px) {
-  .header {
+  .navigation {
     height: 70px;
   }
 }
 
-.header.sticked {
+.navigation.sticked {
   border-color: #fff;
   border-color: #eee;
 }
 
-.header .logo img {
+.navigation .logo img {
   max-height: 40px;
   margin-right: 6px;
 }
 
-.header .logo h1 {
+.navigation .logo h1 {
   font-size: 28px;
   font-weight: 700;
   color: #000;
@@ -170,13 +191,13 @@ button:focus {
   font-family: var(--font-secondary);
 }
 
-.header .logo h1 span {
+.navigation .logo h1 span {
   color: var(--color-primary);
 }
 
-.header .btn-book-a-table,
+.navigation .btn-book-a-table,
 .stats-counter .btn-book-a-table,
-.header .btn-book-a-table:focus {
+.navigation .btn-book-a-table:focus {
   font-size: 14px;
   color: #fff;
   background: var(--color-primary);
@@ -185,9 +206,9 @@ button:focus {
   transition: 0.3s;
 }
 
-.header .btn-book-a-table:hover,
+.navigation .btn-book-a-table:hover,
 .stats-counter .btn-book-a-table:focus,
-.header .btn-book-a-table:focus:hover {
+.navigation .btn-book-a-table:focus:hover {
   color: #fff;
   background: rgba(18, 143, 206, 0.8);
 }
@@ -199,6 +220,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
+
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;

@@ -230,9 +230,16 @@ section, div {
     padding-bottom: 0;
 }
 
-.about .header img {
-    width: 100%;
+.about .logo {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.about .logo img {
+    width: 45vw;
     height: auto;
+    max-width: 300px;
     display: block;
 }
 

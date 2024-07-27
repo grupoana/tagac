@@ -1,45 +1,43 @@
 <?php
 $basePath = $_SERVER['DOCUMENT_ROOT'];
-$lang = 'es';
 $salesRep = $_GET['ref'];
 $salesRef = $salesRep == null ? '': "?ref=$salesRep";
 
-include "$basePath/src/common/contact-data.php";
 include "$basePath/src/trans/index.php";
 include "$basePath/src/.api.php";
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $lang ?>">
+<html lang='es'>
 
 <head>
   <!-- Idioma y codificación -->
   <meta charset="UTF-8">
-  <meta http-equiv="content-language" content="<?php echo $lang ?>">
+  <meta http-equiv="content-language" content='es'>
 
   <!-- Definiciones de la página y SEO -->
-  <title><?php echo $seoTitle[$lang] ?></title>
-  <meta name="title" content="<?php echo $metaTitle[$lang] ?>">
-  <meta name="description" content="<?php echo $metaDesc[$lang] ?>">
+  <title><?php echo $seoTitle ?></title>
+  <meta name="title" content="<?php echo $metaTitle ?>">
+  <meta name="description" content="<?php echo $metaDesc ?>">
   <link rel="canonical" href="https://www.tagac.com.mx/">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "LocalBusiness",
     "name": "TAGAC",
-    "description": "<?php echo $seoDesc[$lang] ?>",
+    "description": "<?php echo $seoDesc ?>",
     "url": "https://www.tagac.com.mx/",
     "image": "",
     "logo": "https://www.tagac.com.mx/src/img/tagac-logo.png",
-    "email": ""<?php echo $dataEmail[$lang] ?>",
-    "telephone": ""<?php echo $dataPhone[$lang] ?>",
+    "email": ""<?php echo $dataEmail ?>",
+    "telephone": ""<?php echo $dataPhone ?>",
     "openingHours" : "Mo-Fr 08:00-18:00, Sa 08:00-14:00",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": ""<?php echo $streetAddress[$lang] ?>",
-      "addressLocality": ""<?php echo $addressLocality[$lang] ?>",
-      "addressRegion": ""<?php echo $addressRegion[$lang] ?>",
-      "postalCode": ""<?php echo $postalCode[$lang] ?>",
-      "addressCountry": ""<?php echo $addressCountry[$lang] ?>"
+      "streetAddress": ""<?php echo $streetAddress ?>",
+      "addressLocality": ""<?php echo $addressLocality ?>",
+      "addressRegion": ""<?php echo $addressRegion ?>",
+      "postalCode": ""<?php echo $postalCode ?>",
+      "addressCountry": ""<?php echo $addressCountry ?>"
     }
   }
   </script>
@@ -65,11 +63,11 @@ include "$basePath/src/.api.php";
       <div class="row justify-content-between gy-5">
         <div
           class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2><?php echo $heroTitle[$lang] ?></h2>
-          <p data-aos-delay="100"><?php echo $heroSub[$lang] ?></p>
+          <h2><?php echo $heroTitle ?></h2>
+          <p data-aos-delay="100"><?php echo $heroSub ?></p>
           <div class="d-flex">
             <a href="/<?php echo $salesRef ?>#contacto" class="btn-book-a-table">
-              <?php echo $heroCTA[$lang] ?>
+              <?php echo $heroCTA ?>
             </a>
           </div>
         </div>
@@ -87,17 +85,17 @@ include "$basePath/src/.api.php";
   <section id="stats-counter-two" class="stats-counter-two">
     <div class="container" data-aos="zoom-out">
       <div class="section-header">
-        <p><?php echo $edifTitle[$lang] ?></p>
+        <p><?php echo $edifTitle ?></p>
       </div>
       <div class="row gy-4">
         <div class="col-lg-5 position-relative stats-img" data-aos="fade-up" data-aos-delay="150"
-          style="background-image: url(https://www.tagac.com.mx/<?php echo $edifImg[$lang] ?>); background-position: right; background-repeat: no-repeat; background-size: cover;">
+          style="background-image: url(https://www.tagac.com.mx/<?php echo $edifImg ?>); background-position: right; background-repeat: no-repeat; background-size: cover;">
         </div>
         <div class="col-lg-7 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
           <div class="content ps-0 ps-lg-5">
-            <?php echo $edifText[$lang] ?>
+            <?php echo $edifText ?>
             <a href="/<?php echo $salesRef ?>#contacto" class="btn-book-a-table">
-              <?php echo $edifCTA[$lang] ?>
+              <?php echo $edifCTA ?>
             </a>
           </div>
         </div>
@@ -109,22 +107,22 @@ include "$basePath/src/.api.php";
   <section id="about" class="about">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h2><?php echo $aboutTitle[$lang] ?></h2>
-        <p><?php echo $aboutSub[$lang] ?></p>
+        <h2><?php echo $aboutTitle ?></h2>
+        <p><?php echo $aboutSub ?></p>
       </div>
 
       <div class="row gy-4">
         <div class="col-lg-5 position-relative about-img"
-          style="background-image: url(https://www.tagac.com.mx/<?php echo $aboutImg[$lang] ?>) ; background-position: center; background-repeat: no-repeat; background-size: cover;"
+          style="background-image: url(https://www.tagac.com.mx/<?php echo $aboutImg ?>) ; background-position: center; background-repeat: no-repeat; background-size: cover;"
           data-aos="fade-up" data-aos-delay="150">
           <div class="call-us position-absolute">
-            <p class="cta"><?php echo $aboutCTA[$lang] ?></p>
-            <p class="number"><?php echo $aboutPhone[$lang] ?></p>
+            <p class="cta"><?php echo $aboutCTA ?></p>
+            <p class="number"><?php echo $aboutPhone ?></p>
           </div>
         </div>
         <div class="col-lg-7 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
           <div class="content ps-0 ps-lg-5">
-            <?php echo $aboutText[$lang] ?>
+            <?php echo $aboutText ?>
           </div>
         </div>
       </div>
@@ -135,10 +133,10 @@ include "$basePath/src/.api.php";
   <section id="stats-counter" class="stats-counter">
     <div class="container stats" data-aos="zoom-out">
       <div class="flex">
-        <h1 class="text-white"><?php echo $ctaTitle[$lang] ?></h1>
-        <h5 class="text-white"><?php echo $ctaSub[$lang] ?></h5>
+        <h1 class="text-white"><?php echo $ctaTitle ?></h1>
+        <h5 class="text-white"><?php echo $ctaSub ?></h5>
         <a class="btn-book-a-table" href="/<?php echo $salesRef ?>#contacto">
-          <?php echo $ctaBtn[$lang] ?>
+          <?php echo $ctaBtn ?>
         </a>
       </div>
     </div>
@@ -149,13 +147,13 @@ include "$basePath/src/.api.php";
     <div class="container-fluid" data-aos="fade-up">
 
       <div class="section-header">
-        <h2><?php echo $prodTitle[$lang] ?></h2>
-        <p><?php echo $prodSub[$lang] ?></p>
+        <h2><?php echo $prodTitle ?></h2>
+        <p><?php echo $prodSub ?></p>
       </div>
 
       <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
-          <?php foreach ($products[$lang] as $item): ?>
+          <?php foreach ($products as $item): ?>
             <div class="swiper-slide event-item d-flex flex-column justify-content-end"
               style="background-image: url(https://www.tagac.com.mx/<?php echo $item['img'] ?>)">
               <h3><?php echo $item['title'] ?></h3>
@@ -173,8 +171,8 @@ include "$basePath/src/.api.php";
     <div class="container-fluid flex-column d-flex jusitfy-content-center align-items-center" data-aos="fade-up">
 
       <div class="section-header">
-        <h2><?php echo $packTitle[$lang] ?></h2>
-        <p><?php echo $packSub[$lang] ?></p>
+        <h2><?php echo $packTitle ?></h2>
+        <p><?php echo $packSub ?></p>
       </div>
 
       <div id="carrusel" class="carousel slide">
@@ -201,7 +199,7 @@ include "$basePath/src/.api.php";
         </button>
       </div>
       <a class="btn-book-a-table mt-4" href="/<?php echo $salesRef ?>#contacto">
-        <?php echo $ctaBtn[$lang] ?>
+        <?php echo $ctaBtn ?>
       </a>
     </div>
   </section>
@@ -211,13 +209,13 @@ include "$basePath/src/.api.php";
     <div class="container" data-aos="fade-up">
 
       <div class="section-header">
-        <h2><?php echo $shipTitle[$lang] ?></h2>
-        <p><?php echo $shipSub[$lang] ?></p>
+        <h2><?php echo $shipTitle ?></h2>
+        <p><?php echo $shipSub ?></p>
       </div>
 
       <div class="row">
-        <img src="https://www.tagac.com.mx/<?php echo $shipImg[$lang] ?>" class="col-lg-8" alt="<?php echo $shipImgAlt[$lang] ?>">
-        <?php echo $shipPoints[$lang] ?>
+        <img src="https://www.tagac.com.mx/<?php echo $shipImg ?>" class="col-lg-8" alt="<?php echo $shipImgAlt ?>">
+        <?php echo $shipPoints ?>
       </div>
   </section>
 
@@ -225,16 +223,16 @@ include "$basePath/src/.api.php";
   <section id="contacto" class="contact">
     <div class="container" data-aos="fade-up">
      <div class="section-header">
-        <h2><?php echo $contTitle[$lang] ?></h2>
-        <p><?php echo $contSub[$lang] ?></p>
+        <h2><?php echo $contTitle ?></h2>
+        <p><?php echo $contSub ?></p>
       </div>
      <div class="row gy-4">
        <div class="col-md-6">
           <div class="info-item  d-flex align-items-center">
             <i class="icon bi bi-telephone flex-shrink-0"></i>
             <div>
-              <h3><?php echo $contPhone[$lang] ?></h3>
-              <a id="phone-contact" href="tel:<?php echo $dataPhone[$lang] ?>"><?php echo $dataPhoneStr[$lang] ?></a>
+              <h3><?php echo $contPhone ?></h3>
+              <a id="phone-contact" href="tel:<?php echo $dataPhone ?>"><?php echo $dataPhoneStr ?></a>
             </div>
           </div>
         </div>
@@ -242,8 +240,8 @@ include "$basePath/src/.api.php";
           <div class="info-item d-flex align-items-center">
             <i class="icon bi bi-envelope flex-shrink-0"></i>
             <div>
-              <h3><?php echo $contEmail[$lang] ?></h3>
-              <a id="email-contact" href="mailto:<?php echo $dataEmail[$lang] ?>"><?php echo $dataEmail[$lang] ?></a>
+              <h3><?php echo $contEmail ?></h3>
+              <a id="email-contact" href="mailto:<?php echo $dataEmail ?>"><?php echo $dataEmail ?></a>
             </div>
           </div>
         </div>
@@ -251,8 +249,8 @@ include "$basePath/src/.api.php";
           <div class="info-item  d-flex align-items-center">
             <i class="icon bi bi-map flex-shrink-0"></i>
             <div>
-              <h3><?php echo $contAddress[$lang] ?></h3>
-              <p><?php echo $dataAddress[$lang] ?><br></p>
+              <h3><?php echo $contAddress ?></h3>
+              <p><?php echo $dataAddress ?><br></p>
             </div>
           </div>
         </div>
@@ -260,9 +258,9 @@ include "$basePath/src/.api.php";
           <div class="info-item  d-flex align-items-center">
             <i class="icon bi bi-share flex-shrink-0"></i>
             <div>
-              <h3><?php echo $contHours[$lang] ?></h3>
+              <h3><?php echo $contHours ?></h3>
               <div>
-                <?php echo $dataHours[$lang] ?>
+                <?php echo $dataHours ?>
               </div>
             </div>
           </div>

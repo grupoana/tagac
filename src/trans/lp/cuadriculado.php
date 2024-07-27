@@ -15,7 +15,7 @@ $heroSub = 'Una imagen Clásica para tu Negocio';
 $descId = 'descripcion';
 
 $descTitle[1] = 'Un papel seguro para tu comida';
-$descSub[1] = 'Todos nuestros papeles son de grado alimenticio. Esto siginifa que tu comida no solo tiene una envoltura bonita, también es seguro comerla.';
+$descSub[1] = 'Todos nuestros papeles son de grado alimenticio. Esto significa que tu comida no solo tiene una envoltura bonita; también es seguro comerla.';
 $descImg[1]['lg'] = 'https://www.usa-tagac.com/assets/img/lp/checkered/desc-1a.jpg';
 $descImg[1]['md'] = 'https://www.usa-tagac.com/assets/img/lp/checkered/desc-1b.jpg';
 $descImg[1]['sm'] = 'https://www.usa-tagac.com/assets/img/lp/checkered/desc-1c.jpg';
